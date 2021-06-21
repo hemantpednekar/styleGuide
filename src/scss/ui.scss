@@ -1,0 +1,39 @@
+/* ==== BASE STYLES ====*/
+
+/* ========================
+INCLUDE STYLES AND COMPONENTS
+===================== */
+
+@import "variables-custom"; 
+
+/* ================== HELPERS  =================== */
+@import "helpers/mixins";
+@import "helpers/helper-classes"; 
+@import "helpers/bg";
+@import "helpers/typography"; 
+
+
+/* ================== SECTIONS =================== */
+@import "sections/header";
+@import "sections/footer";
+@import "sections/sidebar";
+
+
+/* ================== COMPONENTS =================== */
+@import "components/plugin-styles";
+@import "components/buttons";
+@import "components/items";
+@import "components/lists";
+@import "components/cards-product";
+@import "components/elements.scss";
+@import "components/menu";
+@import "components/forms";
+
+/* ================== PAGES =================== */
+@import "pages/page-account";
+@import "pages/page-base";
+@import "pages/page-home";
+@import "pages/page-detail";
+@import "pages/page-listing";
+@import "pages/page-order";
+

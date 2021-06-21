@@ -1,0 +1,33 @@
+/* --------------------- titles ---------------------- */
+.section-heading{ margin-bottom:20px; margin-top: 15px;}
+.section-title{  color:$dark; }
+
+.title-text{margin-top:30px; margin-bottom:10px; font-weight:bold;  color:$dark;}
+.title-page{ color:$dark; }
+
+.text-vsm{
+	font-size: 0.7rem
+}
+
+.text-sm{
+	font-size: 0.8rem
+}
+.text-md{
+	font-size: 1rem
+}
+.text-lg{
+	font-size: 1.3rem
+}
+
+.b{font-weight:600;}
+
+.white{color:#fff}
+.dark{color:$dark}
+.black{color:$black}
+
+p:last-child{ margin-bottom:0  }
+
+
+/* ==================  title helpers ================ */
+.rtl{direction:rtl;}
+.ltr{direction:ltr;}
